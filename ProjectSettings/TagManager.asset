@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Ground
+  - Enemy
+  - DeadArea
+  - HitArea
+  - GroundPlatform
+  - MoveFloor
+  - FallFloor
+  - JumpStep
+  - Oxygen
+  - Hydrogen
+  - Water
+  - Helium
+  - Diamond
+  - Graphite
+  - fire
+  - Tree
+  - MoveFloor2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 3645106557
+    locked: 0
+  - name: BackGroundTilemap
+    uniqueID: 2871584129
+    locked: 0
+  - name: TileMap
+    uniqueID: 276984173
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 832471001
+    locked: 0
+  m_RenderingLayers:
+  - Default

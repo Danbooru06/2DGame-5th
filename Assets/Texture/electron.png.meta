@@ -1,0 +1,2912 @@
+fileFormatVersion: 2
+guid: 68981280eb991dc4da6381dab87c5cc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7465802190636581829
+    second: electron_0
+  - first:
+      213: 8380172318200247658
+    second: electron_1
+  - first:
+      213: -3084454455086499416
+    second: electron_2
+  - first:
+      213: 1257055373807297075
+    second: electron_3
+  - first:
+      213: -4053484270287643724
+    second: electron_4
+  - first:
+      213: -4902302667356497644
+    second: electron_5
+  - first:
+      213: 7771959346280129548
+    second: electron_6
+  - first:
+      213: -7574418874088303512
+    second: electron_7
+  - first:
+      213: -1962519184377772577
+    second: electron_8
+  - first:
+      213: -1655507215417089230
+    second: electron_9
+  - first:
+      213: -4760352635732205709
+    second: electron_10
+  - first:
+      213: 2329133016123665693
+    second: electron_11
+  - first:
+      213: 1033896358263749296
+    second: electron_12
+  - first:
+      213: -7544854385025582071
+    second: electron_13
+  - first:
+      213: 4084211631232532066
+    second: electron_14
+  - first:
+      213: -6479638693606250622
+    second: electron_15
+  - first:
+      213: -2401085624969736330
+    second: electron_16
+  - first:
+      213: 2107684545453956781
+    second: electron_17
+  - first:
+      213: -56344763339068657
+    second: electron_18
+  - first:
+      213: 5144634429808943473
+    second: electron_19
+  - first:
+      213: 8362517893676518417
+    second: electron_20
+  - first:
+      213: 3262863991815944353
+    second: electron_21
+  - first:
+      213: 3270692815281434143
+    second: electron_22
+  - first:
+      213: 4088021160839709885
+    second: electron_23
+  - first:
+      213: -3985469691272849858
+    second: electron_24
+  - first:
+      213: 3057008982408165250
+    second: electron_25
+  - first:
+      213: 7321096484772381892
+    second: electron_26
+  - first:
+      213: 7800547121290765555
+    second: electron_27
+  - first:
+      213: 3687264585045282351
+    second: electron_28
+  - first:
+      213: -2395012531786174352
+    second: electron_29
+  - first:
+      213: 8006537172199780041
+    second: electron_30
+  - first:
+      213: 5209772880096907632
+    second: electron_31
+  - first:
+      213: -9012804477072388694
+    second: electron_32
+  - first:
+      213: -792301180596976078
+    second: electron_33
+  - first:
+      213: 122558178097081234
+    second: electron_34
+  - first:
+      213: 1882355367576313503
+    second: electron_35
+  - first:
+      213: -6450925503045578757
+    second: electron_36
+  - first:
+      213: -7936836328927778871
+    second: electron_37
+  - first:
+      213: -9020216202309174054
+    second: electron_38
+  - first:
+      213: 435360018870717462
+    second: electron_39
+  - first:
+      213: 8155680208211671708
+    second: electron_40
+  - first:
+      213: -7856551872589477655
+    second: electron_41
+  - first:
+      213: 8924828646430868024
+    second: electron_42
+  - first:
+      213: 7056037212952210684
+    second: electron_43
+  - first:
+      213: -4311447785289790752
+    second: electron_44
+  - first:
+      213: -4605193918072860091
+    second: electron_45
+  - first:
+      213: 7265178161290861554
+    second: electron_46
+  - first:
+      213: 4387425552197163497
+    second: electron_47
+  - first:
+      213: 2857843948667126905
+    second: electron_48
+  - first:
+      213: 1231780817684393002
+    second: electron_49
+  - first:
+      213: -5849234051978790198
+    second: electron_50
+  - first:
+      213: -1658679812436459004
+    second: electron_51
+  - first:
+      213: -7568235736978593610
+    second: electron_52
+  - first:
+      213: -1867957582708956655
+    second: electron_53
+  - first:
+      213: 2413705058372738788
+    second: electron_54
+  - first:
+      213: -3259115140869587077
+    second: electron_55
+  - first:
+      213: -659839881313571306
+    second: electron_56
+  - first:
+      213: -2261228607191757343
+    second: electron_57
+  - first:
+      213: 761676389479046611
+    second: electron_58
+  - first:
+      213: 7911301976071920149
+    second: electron_59
+  - first:
+      213: 3967914797944239662
+    second: electron_60
+  - first:
+      213: 2402590220451924795
+    second: electron_61
+  - first:
+      213: -8327073410962575245
+    second: electron_62
+  - first:
+      213: 5111368753010948296
+    second: electron_63
+  - first:
+      213: -6551371203715478174
+    second: electron_64
+  - first:
+      213: -7320563603237236077
+    second: electron_65
+  - first:
+      213: -2851756416071072279
+    second: electron_66
+  - first:
+      213: 7342979662491136637
+    second: electron_67
+  - first:
+      213: 5749501707409022381
+    second: electron_68
+  - first:
+      213: 2109860411723988967
+    second: electron_69
+  - first:
+      213: 2749687917946689077
+    second: electron_70
+  - first:
+      213: -7583670035456890992
+    second: electron_71
+  - first:
+      213: -430111575082849895
+    second: electron_72
+  - first:
+      213: 1648309029131558108
+    second: electron_73
+  - first:
+      213: 8267234728336330545
+    second: electron_74
+  - first:
+      213: 1447798562244533844
+    second: electron_75
+  - first:
+      213: 6314592280381901466
+    second: electron_76
+  - first:
+      213: -6422777629173905420
+    second: electron_77
+  - first:
+      213: 4269393752656722497
+    second: electron_78
+  - first:
+      213: -7830176391622224704
+    second: electron_79
+  - first:
+      213: 1664194557821004437
+    second: electron_80
+  - first:
+      213: 6031288994577264473
+    second: electron_81
+  - first:
+      213: 3581574647677518494
+    second: electron_82
+  - first:
+      213: 2237961227579278730
+    second: electron_83
+  - first:
+      213: 1000385451184012050
+    second: electron_84
+  - first:
+      213: -4485555291895424157
+    second: electron_85
+  - first:
+      213: -4750947966503536304
+    second: electron_86
+  - first:
+      213: 6416632553042097885
+    second: electron_87
+  - first:
+      213: 1437650669340050064
+    second: electron_88
+  - first:
+      213: -8379092223376074283
+    second: electron_89
+  - first:
+      213: 8139365474883940821
+    second: electron_90
+  - first:
+      213: 2252518918818709098
+    second: electron_91
+  - first:
+      213: -366497631392089627
+    second: electron_92
+  - first:
+      213: -9072926723132627817
+    second: electron_93
+  - first:
+      213: -8139901910456383511
+    second: electron_94
+  - first:
+      213: 5014305625529323715
+    second: electron_95
+  - first:
+      213: 3750417981434229
+    second: electron_96
+  - first:
+      213: 8067805522455165507
+    second: electron_97
+  - first:
+      213: -5246968860630205322
+    second: electron_98
+  - first:
+      213: -4181940589365080922
+    second: electron_99
+  - first:
+      213: 4311322944623940971
+    second: electron_100
+  - first:
+      213: -5264772845947357796
+    second: electron_101
+  - first:
+      213: -4057224004530734021
+    second: electron_102
+  - first:
+      213: 815489628960813321
+    second: electron_103
+  - first:
+      213: 2860280122035202668
+    second: electron_104
+  - first:
+      213: 3895007613869608260
+    second: electron_105
+  - first:
+      213: 5555790695700613811
+    second: electron_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: electron_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 1022
+        height: 1469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c30a30798bdb9760800000000000000
+      internalID: 7465802190636581829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1075
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6533e6c25a5c4470800000000000000
+      internalID: 8380172318200247658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1055
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9b2b6e301d135d0800000000000000
+      internalID: -3084454455086499416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1061
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332a7cac335f17110800000000000000
+      internalID: 1257055373807297075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 929
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb1fde48812fb7c0800000000000000
+      internalID: -4053484270287643724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 837
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41914c292b587fbb0800000000000000
+      internalID: -4902302667356497644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 815
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04edcb09db8bdb60800000000000000
+      internalID: 7771959346280129548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_7
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 807
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864d3fd3a2242e690800000000000000
+      internalID: -7574418874088303512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 792
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5064e133bb3c4e0800000000000000
+      internalID: -1962519184377772577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_9
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 785
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233e7f575f47609e0800000000000000
+      internalID: -1655507215417089230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_10
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 747
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f569dcf74dfedb0800000000000000
+      internalID: -4760352635732205709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 740
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d6fac432eb25020800000000000000
+      internalID: 2329133016123665693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_12
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 733
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba71e09243295e00800000000000000
+      internalID: 1033896358263749296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 690
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c708249ea4b4790800000000000000
+      internalID: -7544854385025582071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_14
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 741
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e322be6d80ea830800000000000000
+      internalID: 4084211631232532066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_15
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 746
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28729b250f2b316a0800000000000000
+      internalID: -6479638693606250622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 737
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fc1687851adaed0800000000000000
+      internalID: -2401085624969736330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 729
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae1d565defff3d10800000000000000
+      internalID: 2107684545453956781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 722
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ba83c7cb2d73ff0800000000000000
+      internalID: -56344763339068657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_19
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 710
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171a108a1c9656740800000000000000
+      internalID: 5144634429808943473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_20
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 727
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ccf60c7b1ad0470800000000000000
+      internalID: 8362517893676518417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_21
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 706
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a83a9e5385084d20800000000000000
+      internalID: 3262863991815944353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 714
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ea54069c5d36d20800000000000000
+      internalID: 3270692815281434143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_23
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 699
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4812626919bb830800000000000000
+      internalID: 4088021160839709885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 680
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3698948e64c0b8c0800000000000000
+      internalID: -3985469691272849858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 616
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287fd97097dac6a20800000000000000
+      internalID: 3057008982408165250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 607
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4083dc672c99560800000000000000
+      internalID: 7321096484772381892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_27
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 591
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f46b3a174c114c60800000000000000
+      internalID: 7800547121290765555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_28
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 575
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e8088aa9bcb2330800000000000000
+      internalID: 3687264585045282351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_29
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 563
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b64aaac433ced0800000000000000
+      internalID: -2395012531786174352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 554
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceaded332fec1f60800000000000000
+      internalID: 8006537172199780041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 539
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071d3a6f4d4dc4840800000000000000
+      internalID: 5209772880096907632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_32
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 539
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadcc0a74161ce280800000000000000
+      internalID: -9012804477072388694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 542
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2360567264e2105f0800000000000000
+      internalID: -792301180596976078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 540
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29babcd730a63b100800000000000000
+      internalID: 122558178097081234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_35
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 538
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e9f61db387f1a10800000000000000
+      internalID: 1882355367576313503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_36
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 543
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffc576fe65b976a0800000000000000
+      internalID: -6450925503045578757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_37
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 543
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c728d5f861bad190800000000000000
+      internalID: -7936836328927778871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_38
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 547
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc7328b721c1d280800000000000000
+      internalID: -9020216202309174054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c423a61a5ba0600800000000000000
+      internalID: 435360018870717462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_40
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 503
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af32050fbce2170800000000000000
+      internalID: 8155680208211671708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 530
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cfda92bbe7f290800000000000000
+      internalID: -7856551872589477655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_42
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 537
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8320ebf3e5c5bdb70800000000000000
+      internalID: 8924828646430868024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 529
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc24ffe5741ce160800000000000000
+      internalID: 7056037212952210684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_44
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea48221519aa24c0800000000000000
+      internalID: -4311447785289790752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_45
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 530
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5425a77e7801710c0800000000000000
+      internalID: -4605193918072860091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_46
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 535
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbdaad8b0913d460800000000000000
+      internalID: 7265178161290861554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_47
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 519
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e91f2d4b4443ec30800000000000000
+      internalID: 4387425552197163497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_48
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 530
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974cdc70ee919a720800000000000000
+      internalID: 2857843948667126905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_49
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 527
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ce73f902a281110800000000000000
+      internalID: 1231780817684393002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_50
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 519
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7fabce9853dea0800000000000000
+      internalID: -5849234051978790198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 520
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4020d97af7f2bf8e0800000000000000
+      internalID: -1658679812436459004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_52
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 520
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b869f802b938f690800000000000000
+      internalID: -7568235736978593610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_53
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 527
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112a223b97ea316e0800000000000000
+      internalID: -1867957582708956655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 519
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeded456f33f7120800000000000000
+      internalID: 2413705058372738788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_55
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 521
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ffe520c0c45c2d0800000000000000
+      internalID: -3259115140869587077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_56
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 518
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2ba9bf17c7d6f0800000000000000
+      internalID: -659839881313571306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_57
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 519
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed4260ff808e90e0800000000000000
+      internalID: -2261228607191757343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_58
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 519
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd53b404a4029a00800000000000000
+      internalID: 761676389479046611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_59
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 503
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51adc9a3b379acd60800000000000000
+      internalID: 7911301976071920149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_60
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 501
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e267b7e5c7dd01730800000000000000
+      internalID: 3967914797944239662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_61
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 512
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b4dd67317b75120800000000000000
+      internalID: 2402590220451924795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_62
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 508
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370b9f8f9da407c80800000000000000
+      internalID: -8327073410962575245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 490
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8bf37bcca3fe640800000000000000
+      internalID: 5111368753010948296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_64
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 487
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dc0d2d99ad415a0800000000000000
+      internalID: -6551371203715478174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_65
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 487
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39214695032286a90800000000000000
+      internalID: -7320563603237236077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_66
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 495
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5842a16a68c68d0800000000000000
+      internalID: -2851756416071072279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_67
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 497
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b3b7291187e560800000000000000
+      internalID: 7342979662491136637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_68
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 468
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daddd9937555acf40800000000000000
+      internalID: 5749501707409022381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_69
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 477
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efb77eaddab74d10800000000000000
+      internalID: 2109860411723988967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_70
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 483
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5365568c79ad82620800000000000000
+      internalID: 2749687917946689077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09761d2684461c690800000000000000
+      internalID: -7583670035456890992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_72
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 463
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99927612dcfe70af0800000000000000
+      internalID: -430111575082849895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 471
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc94713458ffd610800000000000000
+      internalID: 1648309029131558108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_74
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 471
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f82490f2e1bb270800000000000000
+      internalID: 8267234728336330545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_75
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 467
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e18e02f1d971410800000000000000
+      internalID: 1447798562244533844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_76
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 465
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a469d0930f1a750800000000000000
+      internalID: 6314592280381901466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 454
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f783cd86c5bdd6a0800000000000000
+      internalID: -6422777629173905420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_78
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 458
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a30617ffeef3b30800000000000000
+      internalID: 4269393752656722497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_79
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 455
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c415b0de00a55390800000000000000
+      internalID: -7830176391622224704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_80
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 449
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a2f001228681710800000000000000
+      internalID: 1664194557821004437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_81
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 437
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f208ba26173b350800000000000000
+      internalID: 6031288994577264473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_82
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e920d538a2f44b130800000000000000
+      internalID: 3581574647677518494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_83
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 441
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85c5f611e5de0f10800000000000000
+      internalID: 2237961227579278730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_84
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 437
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bba40844512ed00800000000000000
+      internalID: 1000385451184012050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_85
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 448
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b133e3a3b10c1c0800000000000000
+      internalID: -4485555291895424157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_86
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 441
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059313efefd311eb0800000000000000
+      internalID: -4750947966503536304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_87
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 415
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6384a6f457c0950800000000000000
+      internalID: 6416632553042097885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_88
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092cd11baaf83f310800000000000000
+      internalID: 1437650669340050064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 428
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d95e65640c77bb80800000000000000
+      internalID: -8379092223376074283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_90
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 427
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1398376c5d4f070800000000000000
+      internalID: 8139365474883940821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 433
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e3906b50e824f10800000000000000
+      internalID: 2252518918818709098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_92
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 431
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e93ad59850f9eaf0800000000000000
+      internalID: -366497631392089627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_93
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 407
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e78a373d761280800000000000000
+      internalID: -9072926723132627817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_94
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 415
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e749b8e652490f80800000000000000
+      internalID: -8139901910456383511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_95
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 419
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c01be44664669540800000000000000
+      internalID: 5014305625529323715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_96
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 415
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579ea8b3cf25d0000800000000000000
+      internalID: 3750417981434229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_97
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 417
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34affdaa06a96ff60800000000000000
+      internalID: 8067805522455165507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_98
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 399
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cb992fe950f27b0800000000000000
+      internalID: -5246968860630205322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_99
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 423
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac4b1bd033c6f5c0800000000000000
+      internalID: -4181940589365080922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_100
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 399
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b651d423065e4db30800000000000000
+      internalID: 4311322944623940971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_101
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 399
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957f269df4cfe6b0800000000000000
+      internalID: -5264772845947357796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 409
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf1c39348d1b7c0800000000000000
+      internalID: -4057224004530734021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 401
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90179343f73315b00800000000000000
+      internalID: 815489628960813321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_104
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 399
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ae408dd91c1b720800000000000000
+      internalID: 2860280122035202668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_105
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 400
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dc326c9c8dd0630800000000000000
+      internalID: 3895007613869608260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electron_106
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 401
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bac7afa3322a1d40800000000000000
+      internalID: 5555790695700613811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      electron_0: 7465802190636581829
+      electron_1: 8380172318200247658
+      electron_10: -4760352635732205709
+      electron_100: 4311322944623940971
+      electron_101: -5264772845947357796
+      electron_102: -4057224004530734021
+      electron_103: 815489628960813321
+      electron_104: 2860280122035202668
+      electron_105: 3895007613869608260
+      electron_106: 5555790695700613811
+      electron_11: 2329133016123665693
+      electron_12: 1033896358263749296
+      electron_13: -7544854385025582071
+      electron_14: 4084211631232532066
+      electron_15: -6479638693606250622
+      electron_16: -2401085624969736330
+      electron_17: 2107684545453956781
+      electron_18: -56344763339068657
+      electron_19: 5144634429808943473
+      electron_2: -3084454455086499416
+      electron_20: 8362517893676518417
+      electron_21: 3262863991815944353
+      electron_22: 3270692815281434143
+      electron_23: 4088021160839709885
+      electron_24: -3985469691272849858
+      electron_25: 3057008982408165250
+      electron_26: 7321096484772381892
+      electron_27: 7800547121290765555
+      electron_28: 3687264585045282351
+      electron_29: -2395012531786174352
+      electron_3: 1257055373807297075
+      electron_30: 8006537172199780041
+      electron_31: 5209772880096907632
+      electron_32: -9012804477072388694
+      electron_33: -792301180596976078
+      electron_34: 122558178097081234
+      electron_35: 1882355367576313503
+      electron_36: -6450925503045578757
+      electron_37: -7936836328927778871
+      electron_38: -9020216202309174054
+      electron_39: 435360018870717462
+      electron_4: -4053484270287643724
+      electron_40: 8155680208211671708
+      electron_41: -7856551872589477655
+      electron_42: 8924828646430868024
+      electron_43: 7056037212952210684
+      electron_44: -4311447785289790752
+      electron_45: -4605193918072860091
+      electron_46: 7265178161290861554
+      electron_47: 4387425552197163497
+      electron_48: 2857843948667126905
+      electron_49: 1231780817684393002
+      electron_5: -4902302667356497644
+      electron_50: -5849234051978790198
+      electron_51: -1658679812436459004
+      electron_52: -7568235736978593610
+      electron_53: -1867957582708956655
+      electron_54: 2413705058372738788
+      electron_55: -3259115140869587077
+      electron_56: -659839881313571306
+      electron_57: -2261228607191757343
+      electron_58: 761676389479046611
+      electron_59: 7911301976071920149
+      electron_6: 7771959346280129548
+      electron_60: 3967914797944239662
+      electron_61: 2402590220451924795
+      electron_62: -8327073410962575245
+      electron_63: 5111368753010948296
+      electron_64: -6551371203715478174
+      electron_65: -7320563603237236077
+      electron_66: -2851756416071072279
+      electron_67: 7342979662491136637
+      electron_68: 5749501707409022381
+      electron_69: 2109860411723988967
+      electron_7: -7574418874088303512
+      electron_70: 2749687917946689077
+      electron_71: -7583670035456890992
+      electron_72: -430111575082849895
+      electron_73: 1648309029131558108
+      electron_74: 8267234728336330545
+      electron_75: 1447798562244533844
+      electron_76: 6314592280381901466
+      electron_77: -6422777629173905420
+      electron_78: 4269393752656722497
+      electron_79: -7830176391622224704
+      electron_8: -1962519184377772577
+      electron_80: 1664194557821004437
+      electron_81: 6031288994577264473
+      electron_82: 3581574647677518494
+      electron_83: 2237961227579278730
+      electron_84: 1000385451184012050
+      electron_85: -4485555291895424157
+      electron_86: -4750947966503536304
+      electron_87: 6416632553042097885
+      electron_88: 1437650669340050064
+      electron_89: -8379092223376074283
+      electron_9: -1655507215417089230
+      electron_90: 8139365474883940821
+      electron_91: 2252518918818709098
+      electron_92: -366497631392089627
+      electron_93: -9072926723132627817
+      electron_94: -8139901910456383511
+      electron_95: 5014305625529323715
+      electron_96: 3750417981434229
+      electron_97: 8067805522455165507
+      electron_98: -5246968860630205322
+      electron_99: -4181940589365080922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
