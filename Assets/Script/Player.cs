@@ -20,19 +20,19 @@ public class Player : MonoBehaviour
     [Header("やられた時に鳴らすSE")] public AudioClip downSE;
     [Header("コンティニュー時に鳴らすSE")] public AudioClip continueSE;
     [Header("アイテム射撃時に鳴らすSE")] public AudioClip shotSE;
-
-    public float verticalmove = 0; //スマホ用の縦移動の入力値
-    public float horizontalmove = 0; //スマホ用の横移動の入力値
-
-    [Header("水")]public GameObject water;
-    [Header("射撃位置")]public Transform shootPoint;
+    [Header("射撃位置")] public Transform shootPoint;
     [Header("射撃クールタイム")] public float shotInterval;
-    [Header("元素の数")]public int elementCount;
-    private GameObject baseItem = null;
-    private GameObject currentItem= null;
-    private bool isKnockback = false;
-    public static float dir;
-    public CoollTimeMarker coolTimeMarker;
+    [Header("元素の数")] public int elementCount;
+    [Header("クールタイムマーカー")] public CoollTimeMarker coolTimeMarker;
+
+    [HideInInspector]public float nextShotTime = 0.0f; //次に射撃できる時間
+    [HideInInspector] public static float dir; //射撃の向き　右なら1、左なら-1
+    [HideInInspector] public float verticalmove = 0; //スマホ用の縦移動の入力値
+    [HideInInspector] public float horizontalmove = 0; //スマホ用の横移動の入力値
+
+    [Header("---　元素関係 ---")]
+    [Header("水")]
+    public GameObject water;
 
     [Header("水素")]
     public GameObject hydrogen;
@@ -81,6 +81,8 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr = null;
     private MoveObject moveObj = null;
     private MoveObject2 moveObj2 = null;
+    private GameObject baseItem = null;
+    private GameObject currentItem = null;
     private bool isGround = false;
     private bool isJump = false;
     private bool isRun = false;
@@ -90,6 +92,9 @@ public class Player : MonoBehaviour
     private bool isContinue = false;
     private bool nonDownAnim = false;
     private bool isClearMotion = false;
+    private bool shotButtonDown = false;
+    private bool changeElementButtonDown = false;
+    private bool isKnockback = false;
     private float jumpPos = 0.0f;
     private float otherJumpHeight = 0.0f;
     private float otherJumpSpeed = 0.0f;
@@ -98,7 +103,6 @@ public class Player : MonoBehaviour
     private float beforeKey = 0.0f;
     private float continueTime = 0.0f;
     private float blinkTime = 0.0f;
-    public float nextShotTime = 0.0f;
     private string enemyTag = "Enemy";
     private string deadAreaTag = "DeadArea";
     private string hitAreaTag = "HitArea";
@@ -143,12 +147,15 @@ public class Player : MonoBehaviour
 
     public void ShotButtonDown()
     {
-
+        if(Time.time >= nextShotTime)
+        {
+            shotButtonDown = true;
+        }
     }
 
     public void ChangeElementButtonDown()
     {
-
+        changeElementButtonDown = true;
     }
 
     public void SetElement()
@@ -188,6 +195,10 @@ public class Player : MonoBehaviour
                 GManager.currentItem = GManager.ElementItem.Diamond;
                 GManager.baseItem = GManager.ElementItem.Diamond;
                 speed = diamondSpeed;
+                gravity = carbongravity;
+                jumpSpeed = carbonjumpSpeed;
+                jumpHeight = carbonjumpHeight;
+                jumpLimitTime = carbonjumpLimitTime;
                 break;
 
             case GManager.Element.Carbon_Graphite:
@@ -197,6 +208,10 @@ public class Player : MonoBehaviour
                 GManager.currentItem = GManager.ElementItem.Graphite;
                 GManager.baseItem = GManager.ElementItem.Graphite;
                 speed = graphiteSpeed;
+                gravity = carbongravity;
+                jumpSpeed = carbonjumpSpeed;
+                jumpHeight = carbonjumpHeight;
+                jumpLimitTime = carbonjumpLimitTime;
                 break;
 
             case GManager.Element.Oxygen:
@@ -205,6 +220,11 @@ public class Player : MonoBehaviour
                 currentItem = oxygen;
                 GManager.currentItem = GManager.ElementItem.Oxygen;
                 GManager.baseItem = GManager.ElementItem.Oxygen;
+                speed = oxygenSpeed;
+                gravity = oxygengravity;
+                jumpSpeed = oxygenjumpSpeed;
+                jumpHeight = oxygenjumpHeight;
+                jumpLimitTime = oxygenjumpLimitTime;
                 break;
         }
     }
@@ -226,14 +246,16 @@ public class Player : MonoBehaviour
         //アイテム射撃
         if (!isDown && !GManager.instance.isGameOver && !GManager.instance.isStageClear)
         {
-            if (Input.GetKeyDown(KeyCode.X) && Time.time >= nextShotTime)
+            if ((Input.GetKeyDown(KeyCode.X) && Time.time >= nextShotTime) || (shotButtonDown && Time.time >= nextShotTime))
             {
                 ShootItem();
                 nextShotTime = Time.time + shotInterval;
                 coolTimeMarker.timer = 0f;
+                shotButtonDown = false;
             }
-            if (Input.GetKeyDown(KeyCode.C) && GManager.instance.stageType == GManager.StageType.A)
+            if ((Input.GetKeyDown(KeyCode.C) && GManager.instance.stageType == GManager.StageType.A) || (changeElementButtonDown && GManager.instance.stageType == GManager.StageType.A))
             {
+                changeElementButtonDown = false;
                 if(GManager.currentElement != (GManager.Element)elementCount - 1)
                 {
                     GManager.currentElement++;
@@ -542,6 +564,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //元素を射撃する
     public void ShootItem()
     {
         Instantiate(currentItem, shootPoint.position, Quaternion.identity);
@@ -551,6 +574,7 @@ public class Player : MonoBehaviour
         GManager.currentItem = GManager.baseItem;
     }
 
+    //ノックバックさせる(水素の爆発など)
     public void Knockback(Vector2 direction, float force)
     {
         isKnockback = true;

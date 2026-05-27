@@ -10,13 +10,11 @@ public class Item : MonoBehaviour
     public Sprite OxygenIcon;
     public Sprite WaterIcon;
 
-    //private SpriteRenderer currentIcon;
     private Image currentIcon;
     private GManager.ElementItem oldItem;
 
     void Start()
     {
-        //currentIcon = GetComponent<SpriteRenderer>();
         currentIcon = GetComponent<Image>();
         SetIcon();
     }

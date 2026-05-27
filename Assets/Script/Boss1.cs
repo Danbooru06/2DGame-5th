@@ -10,11 +10,19 @@ public class Boss1 : MonoBehaviour
     [Header("画面外でも行動する")] public bool nonVisibleAct;
     [Header("接触判定")] public EnemyCollisionCheck checkCollision;
     [Header("やられた時に鳴らすSE")] public AudioClip deadSE;
-
-    [Header("--- 追加仕様 ---")]
-    [Header("通常サイズ")] public float normalScale = 1.0f;
-    [Header("大きいサイズ")] public float bigScale = 2.0f;
+    [Header("最小サイズ")] public float minScale = 1.0f;
+    [Header("最大サイズ")] public float maxScale = 2.0f;
+    [Header("サイズが変わるスピード")] public float scaleSpeed = 2.0f;
     [Header("最大体力(踏まれる回数)")] public int maxHp = 3;
+    [Header("大きくなった時の色")] public Color bigColor = Color.red;
+    [HideInInspector] public bool isShot = false;
+
+    [Header("--- 死亡時のオブジェクト連動 ---")]
+    [Header("連動して【消したい】オブジェクト（複数可）")]
+    public GameObject[] targetsToDestroy;
+
+    [Header("連動して【出現させたい】プレハブ（複数可）")]
+    public GameObject[] spawnPrefabs;
     #endregion
 
     #region//プライベート変数
@@ -26,10 +34,12 @@ public class Boss1 : MonoBehaviour
     private bool rightTleftF = false;
     private bool isDead = false;
 
-    // 追加のプライベート変数
     private int currentHp;
-    private bool isBig = false;       // 現在大きいサイズかどうか
-    private bool isInvincible = false; // 無敵フラグ
+    private bool isInvincible = false; // ダメージを受けた後の無敵状態かどうか
+
+    private bool lastCollisionState = false;
+    private float timer = 0f;
+    private bool canTakeShotDamage = false; // ショットが効く状態かどうかのフラグ
     #endregion
 
     void Start()
@@ -40,58 +50,86 @@ public class Boss1 : MonoBehaviour
         oc = GetComponent<ObjectCollision>();
         col = GetComponent<BoxCollider2D>();
 
-        currentHp = maxHp; // 体力を初期化
+        currentHp = maxHp;
     }
 
     void FixedUpdate()
     {
-        // 死亡時の処理（完全にやられた場合）
         if (isDead)
         {
             transform.Rotate(new Vector3(0, 0, 5));
             return;
         }
 
-        // プレイヤーに踏まれた時の判定
-        if (oc.playerStepOn)
+        // プレイヤーに踏まれた、または「ショットが有効な時にショットが当たった」場合
+        if (oc.playerStepOn || (isShot && canTakeShotDamage))
         {
-            // 無敵時間中でなければダメージ処理を開始
             if (!isInvincible)
             {
                 StartCoroutine(TakeDamageAndBlink());
             }
-            else
+            else //無敵中
             {
-                // 無敵時間中に再度踏まれてもスルーするように、踏まれ判定をリセット
                 oc.playerStepOn = false;
+                isShot = false; // 無敵中ならショットを無効化
             }
         }
         else
         {
-            // 生存時の移動・サイズ変更処理
+            // ショットが無効な時に当たった場合は、フラグだけ戻してノーダメージ
+            if (isShot && !canTakeShotDamage)
+            {
+                isShot = false;
+            }
+
             if (sr.isVisible || nonVisibleAct)
             {
-                // 壁（障害物）に接触した瞬間
-                if (checkCollision.isOn)
+                // 壁（障害物）に接触した瞬間は「向きの反転」だけを行う
+                if (checkCollision != null && checkCollision.isOn && !lastCollisionState)
                 {
-                    rightTleftF = !rightTleftF; // 向きを反転
-                    isBig = !isBig;             // サイズ状態を反転（大きい⇔通常）
+                    rightTleftF = !rightTleftF;
                 }
 
-                // 向きとサイズを計算に組み込む
-                int xVector = -1;
-                float currentScaleX = isBig ? bigScale : normalScale;
-                float currentScaleY = isBig ? bigScale : normalScale;
-
-                if (rightTleftF)
+                if (checkCollision != null)
                 {
-                    xVector = 1;
-                    // 反転（元の向きが左の場合、右を向けるためにマイナスにする）
-                    transform.localScale = new Vector3(-currentScaleX, currentScaleY, 1);
+                    lastCollisionState = checkCollision.isOn;
+                }
+
+                // --- 常に一定間隔でサイズを変更する処理 ---
+                timer += Time.fixedDeltaTime * scaleSpeed;
+                float lerpValue = Mathf.PingPong(timer, 1.0f);
+                float currentScale = Mathf.Lerp(minScale, maxScale, lerpValue);
+
+                // --- 大きくなっている時の色変更 ＆ ショット受付判定 ---
+                // 変更具合（lerpValue）が 0.7（70%以上大きくなっている時）を基準にします
+                if (lerpValue > 0.7f)
+                {
+                    canTakeShotDamage = true;
+                    if (sr != null && !isInvincible) // 点滅中は色を上書きしない
+                    {
+                        // 通常の色からインスペクターで設定した色（デフォルトは赤）へ滑らかに変える
+                        sr.color = Color.Lerp(Color.white, bigColor, (lerpValue - 0.7f) / 0.3f);
+                    }
                 }
                 else
                 {
-                    transform.localScale = new Vector3(currentScaleX, currentScaleY, 1);
+                    canTakeShotDamage = false;
+                    if (sr != null && !isInvincible)
+                    {
+                        sr.color = Color.white; // 通常サイズ付近は元の色
+                    }
+                }
+
+                // 移動の向きを計算
+                int xVector = -1;
+                if (rightTleftF)
+                {
+                    xVector = 1;
+                    transform.localScale = new Vector3(-currentScale, currentScale, 1);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(currentScale, currentScale, 1);
                 }
 
                 rb.linearVelocity = new Vector2(xVector * speed, -gravity);
@@ -103,54 +141,63 @@ public class Boss1 : MonoBehaviour
         }
     }
 
-    // ダメージ（踏まれた）時の処理と3秒間の点滅コルーチン
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Hydrogen" || collision.collider.tag == "Helium" || collision.collider.tag == "Diamond" || collision.collider.tag == "Graphite" || collision.collider.tag == "Oxygen")
+        {
+            isShot = true;
+        }
+    }
+
     private IEnumerator TakeDamageAndBlink()
     {
-        isInvincible = true; // 無敵開始
+        isInvincible = true;
         currentHp--;
 
-        // 踏まれた判定を一度リセット
         oc.playerStepOn = false;
+        isShot = false; // ダメージを受けたらショットフラグをリセット
 
-        // HPが0になったら死亡
         if (currentHp <= 0)
         {
             Die();
-            yield break; // コルーチンをここで終了
+            yield break;
         }
 
-        // --- 3秒間の点滅処理 ---
-        float blinkDuration = 3.0f; // 点滅させる合計時間
-        float blinkInterval = 0.1f; // 点滅の速さ（0.1秒ごと）
-        float timer = 0f;
+        float blinkDuration = 3.0f;
+        float blinkInterval = 0.1f;
+        float blinkTimer = 0f;
 
-        while (timer < blinkDuration)
+        while (blinkTimer < blinkDuration)
         {
             if (sr != null)
             {
-                // スプライトの表示・非表示を切り替える
                 sr.enabled = !sr.enabled;
             }
             yield return new WaitForSeconds(blinkInterval);
-            timer += blinkInterval;
+            blinkTimer += blinkInterval;
         }
 
-        // ループを抜けたら必ずスプロイトを表示状態に戻す
         if (sr != null)
         {
             sr.enabled = true;
+            // 無敵が終わったら、その時のサイズに応じた色に戻す
+            sr.color = canTakeShotDamage ? bigColor : Color.white;
         }
 
-        isInvincible = false; // 無敵解除
+        isInvincible = false;
     }
 
-    // 死亡処理
     private void Die()
     {
         isDead = true;
-        anim.Play("enemy1_dead");
+        anim.Play("boss1_dead");
         rb.linearVelocity = new Vector2(0, -gravity);
         col.enabled = false;
+
+        if (sr != null)
+        {
+            sr.color = Color.white; // 死亡時は念のため色を戻す
+        }
 
         if (GManager.instance != null)
         {
@@ -158,6 +205,33 @@ public class Boss1 : MonoBehaviour
             GManager.instance.score += myScore;
         }
 
+        // --- 死亡時のオブジェクト連動処理 ---
+        //削除
+        if (targetsToDestroy != null && targetsToDestroy.Length > 0)
+        {
+            foreach (GameObject target in targetsToDestroy)
+            {
+                if (target != null)
+                {
+                    Destroy(target);
+                }
+            }
+        }
+
+        //出現
+        if (spawnPrefabs != null && spawnPrefabs.Length > 0)
+        {
+            foreach (GameObject prefab in spawnPrefabs)
+            {
+                if (prefab != null)
+                {
+                    Instantiate(prefab, transform.position, Quaternion.identity);
+                }
+            }
+        }
+
         Destroy(gameObject, 3f);
     }
+
+   
 }

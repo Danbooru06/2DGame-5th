@@ -6,6 +6,7 @@ public class Fire : MonoBehaviour
 
     [Header("爆発半径")]public float radius;
     [Header("爆発の強さ")]public float force;
+
     private bool firstGrown = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {

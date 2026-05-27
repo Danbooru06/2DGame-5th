@@ -124,6 +124,7 @@ public class StageCtrl : MonoBehaviour
         stageClearObj.SetActive(true);
         GManager.instance.PlaySE(stageClearSE);
         GManager.instance.score += 1000;
+        GManager.instance.continueNum = 0;
         GManager.instance.AddHeartNum();
     }
 }

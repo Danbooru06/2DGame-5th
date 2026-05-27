@@ -3605,6 +3605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4202419290068319329, guid: 37d624bf8e633d44383409cde314d6fe, type: 3}
+      propertyPath: continueNum
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6789443585450495356, guid: 37d624bf8e633d44383409cde314d6fe, type: 3}
       propertyPath: m_Name
       value: Continue1
@@ -4695,6 +4699,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 107552042117997860, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 107552042117997860, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeElementButtonDown
+      objectReference: {fileID: 0}
     - target: {fileID: 1539938516659724563, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
       propertyPath: m_Name
       value: StageCtrl
@@ -4715,10 +4727,58 @@ PrefabInstance:
       propertyPath: 'continuePoint.Array.data[1]'
       value: 
       objectReference: {fileID: 1697135623}
+    - target: {fileID: 1992427407727857439, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 1992427407727857439, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 1992427407727857439, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LeftButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992427407727857439, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LeftButtonUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523316886598761485, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 3523316886598761485, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 3523316886598761485, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523316886598761485, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightButtonUp
+      objectReference: {fileID: 0}
     - target: {fileID: 3541789582163476128, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1321568631}
+    - target: {fileID: 4790341023839991599, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 4790341023839991599, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 4790341023839991599, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JumpButtonDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790341023839991599, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: JumpButtonUp
+      objectReference: {fileID: 0}
     - target: {fileID: 7231832242237597237, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.19
@@ -4775,6 +4835,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1535238172}
+    - target: {fileID: 8491411995613632176, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1321568631}
+    - target: {fileID: 8491411995613632176, guid: e85fe35eb4416e84d9c1629f98732bd1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShotButtonDown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
