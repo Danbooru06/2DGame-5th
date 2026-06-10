@@ -382,7 +382,7 @@ public class Player : MonoBehaviour
                 {
                     GManager.instance.PlaySE(jumpSE);
                     //炭素の変形
-                    if(GManager.instance.stageType == GManager.StageType.C)
+                    if(GManager.instance.stageType == GManager.StageType.A)
                     {
                         if (GManager.currentElement == GManager.Element.Carbon_Diamond)
                         {

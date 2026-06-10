@@ -9,6 +9,7 @@ public class Enemy1 : MonoBehaviour
     [Header("画面外でも行動する")] public bool nonVisibleAct;
     [Header("接触判定")] public EnemyCollisionCheck checkCollision;
     [Header("やられた時に鳴らすSE")] public AudioClip deadSE;
+    [HideInInspector] public bool isShot = false;
     #endregion
 
     #region//プライベート変数
@@ -19,8 +20,6 @@ public class Enemy1 : MonoBehaviour
     private BoxCollider2D col = null;
     private bool rightTleftF = false;
     private bool isDead = false;
-    public bool isShot = false;
-
     #endregion
 
     void Start()

@@ -1409,68 +1409,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccf8f6964707d46468df6be87af0ed06, type: 3}
---- !u!1001 &3328366751846232633
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1321568634}
-    m_Modifications:
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8603319838541494800, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-      propertyPath: m_Name
-      value: EventSystem
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
---- !u!4 &3328366751846232634 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
-  m_PrefabInstance: {fileID: 3328366751846232633}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3373251665287011371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1990,75 +1928,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: oxygenSpeed
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: carbongravity
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: heliumgravity
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: oxygengravity
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
       propertyPath: coolTimeMarker
       value: 
       objectReference: {fileID: 191068857}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: carbonjumpSpeed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: heliumjumpSpeed
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: hydrogengravity
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: oxygenjumpSpeed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: carbonjumpHeight
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: oxygenjumpHeight
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: hydrogenjumpSpeed
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: carbonjumpLimitTime
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: heliumjumpLimitTime
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: oxygenjumpLimitTime
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7682774611970122600, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      propertyPath: hydrogenjumpLimitTime
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4337125010363570742, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3328366751846232634}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 913052d8bd29dcc40afeb9f85d73669a, type: 3}
 --- !u!1001 &8271399870560927878

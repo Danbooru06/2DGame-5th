@@ -129,6 +129,7 @@ Transform:
   - {fileID: 3803939287795524573}
   - {fileID: 5782471209989411305}
   - {fileID: 1889600802652547786}
+  - {fileID: 4331490253993520859}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &641913731075710451
@@ -316,45 +317,45 @@ MonoBehaviour:
   downSE: {fileID: 8300000, guid: 6750af2302e06a04283ea472a5321419, type: 3}
   continueSE: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
   shotSE: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
-  verticalmove: 0
-  horizontalmove: 0
-  water: {fileID: 690722084081662834, guid: 113c41100aa24ee449456455880fb490, type: 3}
   shootPoint: {fileID: 1889600802652547786}
   shotInterval: 3
   elementCount: 5
   coolTimeMarker: {fileID: 0}
+  nextShotTime: 0
+  verticalmove: 0
+  horizontalmove: 0
+  water: {fileID: 690722084081662834, guid: 113c41100aa24ee449456455880fb490, type: 3}
   hydrogen: {fileID: 573042928585434532, guid: bd467ec3109368b40a1acd26e68e95ab, type: 3}
-  hydrogenSpeed: 16
-  hydrogengravity: 10
-  hydrogenjumpSpeed: 15
+  hydrogenSpeed: 17
+  hydrogengravity: 9
+  hydrogenjumpSpeed: 14
   hydrogenjumpHeight: 6
-  hydrogenjumpLimitTime: 2
+  hydrogenjumpLimitTime: 3
   player_H: {fileID: 22100000, guid: 5fb601dfbe9f35d41ac2655c165acd24, type: 2}
   helium: {fileID: 420728286704370356, guid: 7be89767a6302b94591f923d70baf3da, type: 3}
-  heliumSpeed: 16
-  heliumgravity: 6
-  heliumjumpSpeed: 15
+  heliumSpeed: 17
+  heliumgravity: 9
+  heliumjumpSpeed: 14
   heliumjumpHeight: 6
-  heliumjumpLimitTime: 2
+  heliumjumpLimitTime: 3
   player_He: {fileID: 22100000, guid: fb85f93753f861b46ac6d3c3caa8ac4b, type: 2}
   diamond: {fileID: 7596954985480166786, guid: fe0df577029cb8944a5df206a1e6bf6a, type: 3}
   graphite: {fileID: 6900470284708351331, guid: 959c4c7b7e85da84dab58a1ca3c46178, type: 3}
-  diamondSpeed: 13
-  graphiteSpeed: 13
-  carbongravity: 0
-  carbonjumpSpeed: 0
-  carbonjumpHeight: 0
-  carbonjumpLimitTime: 0
+  diamondSpeed: 14
+  graphiteSpeed: 14
+  carbongravity: 13
+  carbonjumpSpeed: 12
+  carbonjumpHeight: 6
+  carbonjumpLimitTime: 2
   player_C_D: {fileID: 22100000, guid: ad6688f50b660a0479507b1ba98dda9e, type: 2}
   player_C_G: {fileID: 22100000, guid: f72ea7e6bfd7baa47a1be416df2c3cd0, type: 2}
   oxygen: {fileID: 4668935360318755290, guid: 79d90c73256bea94a9a4769853494d0e, type: 3}
-  oxygenSpeed: 0
-  oxygengravity: 0
-  oxygenjumpSpeed: 0
-  oxygenjumpHeight: 0
-  oxygenjumpLimitTime: 0
+  oxygenSpeed: 14
+  oxygengravity: 11
+  oxygenjumpSpeed: 12
+  oxygenjumpHeight: 6
+  oxygenjumpLimitTime: 2
   player_O: {fileID: 22100000, guid: fa31be8bbaba74d4a99effa9c970e766, type: 2}
-  nextShotTime: 0
 --- !u!70 &2199472990779490919
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -542,3 +543,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkPlatformGround: 0
+--- !u!1001 &436461499349734814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4337125010363570742}
+    m_Modifications:
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8603319838541494800, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+--- !u!4 &4331490253993520859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4184429011255540549, guid: a379f5703aa0b4245931d8a379651dca, type: 3}
+  m_PrefabInstance: {fileID: 436461499349734814}
+  m_PrefabAsset: {fileID: 0}
